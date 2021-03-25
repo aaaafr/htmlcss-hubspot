@@ -31,7 +31,6 @@ body{
 .bg_white{
     background-color: white;
     width:100%;
-    height:100px;
 }
 
 .bg_img{
@@ -51,7 +50,6 @@ body{
 /* section header */
 .site_header{
     width:100%;
-    height:1000px;
 }
 
 .log_header{
@@ -121,6 +119,7 @@ body{
 
 
 .logo{
+    height:100px;
     width:50%;
     position: relative;
     top:30px;
@@ -142,7 +141,7 @@ body{
     font-size: 25px;
     padding: 10px;
     position: relative;
-    bottom: 15px;
+    bottom: 60px;
     left: 30%; 
 }
 .text{
@@ -191,3 +190,70 @@ section p{
     border-bottom:10px solid #3C5363;
 }
 
+
+main{
+    width:100%;
+}
+
+
+.main_title{
+    text-align: center;
+}
+
+.main_title img{
+    height:400px;
+    margin-top:40px;
+
+}
+
+.main_title h2{
+    font-size:60px;
+    font-weight: 600;
+    color:#3C5363;
+    padding-top: 30px;
+
+}
+
+.main_title p{
+    font-size:30px;
+    padding-top: 2%;
+    font-size: 30px;
+    padding-left: 9%;
+    padding-right: 9%;
+
+}
+
+
+.r_main{
+     margin-top: 100px;
+     border: 2px solid transparent;
+     border-radius: 10px;
+}
+
+.column1{
+    width:50%;
+    height:100%
+}
+
+
+#books{
+    width:20%;
+    height:5%;
+    position:relative;
+    left:20%;
+    top:100px;
+}
+
+
+.column1 a{
+    font-size: 30px;
+    color:white;
+    background-color:#FE775A;
+    border:1px solid white;
+    border-radius:10px;
+    padding: 40px;
+    text-decoration: none;
+    position: relative;
+    top: 250px;
+
+} 
