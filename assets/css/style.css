@@ -315,6 +315,7 @@ ul li {
 .column3{
     width:100%;
     margin-top: 100px;
+    margin-bottom:100px;
 }
 
 .col{
@@ -323,6 +324,7 @@ ul li {
     height:1200px;
     float:left;
     text-align: center;
+    
    
 }
 
@@ -396,3 +398,78 @@ ul li {
     position: relative;
     top: 150px;   
 }
+
+
+
+.bg_gradient{
+    height:2000px;
+    width:100%;
+    background:linear-gradient(180deg, #00ACB6 0%, #00BAA9 100%);
+
+}
+
+.w_text{
+    text-align:center;
+    padding-top: 5%;
+    padding-left:50px;
+    padding-right:50px;
+
+}
+
+
+.w_text h2{
+    color:white;  
+    font-size: 55px;
+
+}
+
+
+.w_text p{
+    padding-top: 3%;
+    color: white;
+    font-size: 30px;
+
+}
+
+
+.w_text .top_section{
+    margin-top:100px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    width:25%;
+    float:left;
+}
+
+#b_right{
+    border-right:0;
+}
+
+
+.top_section img, .bottom_section img{
+    height:60px;
+   
+}
+
+.top_section h3, .bottom_section h3{
+    font-size: 70px;
+    color: white;
+    padding-top: 5%;
+}
+
+.top_section p, .bottom_section p{
+    font-size: 20px;   
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.w_text .bottom_section{
+    border-right: 1px solid white;
+    width:25%;
+    float:left;
+    margin-top:0;
+}
+
+.bottom_section img{
+    margin-top:50px;
+}
+
