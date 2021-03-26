@@ -25,6 +25,7 @@ body{
 /* background */
 .bg_blue{
     background-color: #F4F9FD;
+    width:100%;
 }
 
 .bg_white{
@@ -146,7 +147,7 @@ body{
 
 section .title{
     font-size: 90px;
-    font-weight: 600;
+    font-weight: 700;
     color:#3C5363;
     padding-top:100px;
 }
@@ -193,6 +194,11 @@ section p{
 
 main{
     width:100%;
+    
+}
+
+.main_blue{
+    height: 100%;
 }
 
 
@@ -208,7 +214,7 @@ main{
 
 .main_title h2{
     font-size:60px;
-    font-weight: 600;
+    font-weight: 700;
     color:#3C5363;
     padding-top: 30px;
 
@@ -260,8 +266,6 @@ main{
     position: relative;
     top:200px;
 
-
-
 } 
 
 
@@ -273,20 +277,17 @@ main{
 
 #f_title{
     font-size:50px;
-    font-weight: 600;
+    font-weight: 700;
     color:#3C5363;
     padding-top: 5%;
 }
 
 h3{
     font-size:30px;
-    font-weight:600;
+    font-weight:700;
     color:#3C5363;
     padding-top: 3%;
 }
-
-
-
 
 
 ul li {
@@ -309,7 +310,89 @@ ul li {
     padding: 10px;
     border-radius: 30px;
 }
+
+
+.column3{
+    width:100%;
+    margin-top: 100px;
+}
+
+.col{
+    background-color:white;
+    width:30%;
+    height:1200px;
+    float:left;
+    text-align: center;
+   
+}
+
+.col_marketing{
+    margin-right: 5%;
+
+}
+
+.col_sales{
+    margin-right:5%;
 }
 
 
+.col img{
+    height: 200px;
+    margin-top: 40px;
+}
 
+.col h3{
+    font-size:40px;
+   
+}
+
+.col p{
+    font-size:30px;
+    margin:50px;
+}
+
+
+#divider{
+    border-top:1px solid #3C5363;
+    margin:50px;
+    margin-top:100px;
+}
+
+
+#small_title{
+    font-size:30px;
+}
+
+.col ul{
+    padding-top:5%;
+    margin-left:50px;
+}
+
+
+.col  ul li{
+    display:list-item;
+    text-align: left;
+    list-style: none;
+    font-size:25px;
+    padding:3px;
+    
+   
+}
+
+
+.col ul li span{
+    padding:5px;
+}
+
+
+.col a{
+    font-size: 25px;
+    color:white;
+    background-color:#FE775A;
+    border:1px solid white;
+    border-radius:10px;
+    padding: 40px;
+    text-decoration: none;
+    position: relative;
+    top: 150px;   
+}
