@@ -473,3 +473,45 @@ ul li {
     margin-top:50px;
 }
 
+
+
+.numbers{
+    width:30%;
+    color: #3C5363;
+    text-align:center;
+    margin-top:100px;
+    float:left;
+
+}
+
+
+.numbers h1{
+    font-size:90px;
+    font-weight:600;
+}
+
+
+.numbers p{
+    font-size: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 40px;
+
+}
+
+.numbers p span{
+    font-weight: 700;
+}
+
+.logos{
+    width:70%;
+    float:left;
+    text-align: center;
+    margin-top:100px ;
+
+}
+
+.logos img{
+    height: 50px;
+    margin: 30px;
+}
