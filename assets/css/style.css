@@ -64,7 +64,7 @@ body{
 
 .left_menu a{
     color:#3C5363;
-    font-size:1rem;
+    font-size:20px;
     text-decoration: none;
     position: relative;
     top:20px;
@@ -90,6 +90,7 @@ body{
     text-decoration: none;
     position:relative;
     bottom:10px;
+    font-size:20px;
 }
 
 #colored{
@@ -549,7 +550,8 @@ ul li:first-child{
     text-align: center;
     font-size:25px;
     border-bottom:1px solid white;
-    padding-bottom:50px;
+    padding-bottom:40px;
+    padding-top:40px;
 }
 
 .langue a{
@@ -567,7 +569,7 @@ ul li:first-child{
 
 .copyright img{
     width: 20%;
-    filter: brightness(0.7);
+    filter: opacity(0.5)
 }
 
 .copyright p{
@@ -587,7 +589,7 @@ ul li:first-child{
 
 .privacy a{
     color:white;
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
     padding:40px;
 }
