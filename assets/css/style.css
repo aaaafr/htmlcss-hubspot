@@ -36,7 +36,13 @@ body{
     background-size: cover;
     background-position: right;
     height:1080px;
+}
 
+.bg_darkblue{
+    background-color: #3C5363;
+    width:100%;
+    margin-top:200px;
+    height:750px
 }
 
 /* section header */
@@ -499,3 +505,92 @@ ul li {
 .growing  #small_p{
     font-size:20px;
 }
+
+.increase, .connect, .leads, .support{
+    width:25%;
+    float:left;
+    padding-top:40px;
+    line-height: 2rem;
+}
+
+.increase ul, .connect ul, .leads ul, .support ul{
+    list-style: none;
+}
+
+ul li:first-child{
+    font-weight: 700;
+}
+
+.increase ul li, .connect ul li, .leads ul li, .support ul li{
+    color:white;
+    font-size:20px;
+    display: list-item;
+}
+
+.support a{
+    text-decoration: none;
+    color:#3C5363;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding:10px;
+    line-height: 4rem;
+}
+
+.media i{
+    color:white;
+    font-size:25px;
+    padding:15px;
+}
+
+.langue{
+    width:100%;
+    display:inline-block;
+    text-align: center;
+    font-size:25px;
+    border-bottom:1px solid white;
+    padding-bottom:50px;
+}
+
+.langue a{
+    color:white;
+    text-decoration: none;
+    padding:50px;
+}
+
+.copyright{
+    padding-top:40px;
+    padding-bottom:40px;
+    width:50%;
+    float:left;
+}
+
+.copyright img{
+    width: 20%;
+    filter: brightness(0.7);
+}
+
+.copyright p{
+    color:white;
+    font-size:20px;
+    padding-top:20px;
+}
+
+.privacy{
+    width:50%;
+    float:left;
+    padding-top:40px;
+    padding-bottom:40px;
+    text-align: right;
+}
+
+
+.privacy a{
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+    padding:40px;
+}
+
+
+
